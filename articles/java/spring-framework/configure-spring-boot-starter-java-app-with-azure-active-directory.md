@@ -139,7 +139,7 @@ The following prerequisites are required in order to complete the steps in this 
 
 1. From the **Overview** page of your Active Directory, select **Groups**, then **New group** that you will use for authorization in your application.
 
-1. Select **No members selected**. (For the purposes of this tutorial, we'll create a group named *users*.)  Search for the user created in the previous step.  Select **Select** to add the user to the group.  Then select **Create** to create the new group.
+1. Select **No members selected**. (For the purposes of this tutorial, we'll create a group named *group1*.)  Search for the user created in the previous step.  Select **Select** to add the user to the group.  Then select **Create** to create the new group.
 
    >[!div class="mx-imgBorder"]
    >![Select the user for group][create-user-03]
@@ -298,6 +298,7 @@ The following prerequisites are required in order to complete the steps in this 
 
    > [!NOTE]
    > User accounts which are not authorized will receive an **HTTP 403 Unauthorized** message.
+   >[!div class="mx-imgBorder"]
    >![UnSuccessful login][Unauthorized-group2]
 
 ## Summary
